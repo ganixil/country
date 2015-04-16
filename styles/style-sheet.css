@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{
+  background-color:yellow;
+}
+#nav ul {
+  list-style: none;
+  background-color: red;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+#nav a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+#nav a:hover {
+  background-color: #blue;
+}
+
+#nav a.active {
+  background-color: #fff;
+  color: #yellow;
+  cursor: default;
+}
+
+img {
+  height:400px
+}
+#pics h1{
+  display:inline;
+  text-align:center
+}
+#cultures ul{
+  list-style:none;
+}
+#tourist ul{
+  list-style:none;
+}
+#container {
+  width: 1370px;
+  overflow: hidden;
+  margin: 50px auto;
+  background: yellow;
+}
+#gallery img{
+  height:400px;
+}
+#gallery{
+  height: 300px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+  -moz-animation: bannermove 30s linear infinite;
+  -ms-animation: bannermove 30s linear infinite;
+  -o-animation: bannermove 30s linear infinite;
+  animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
